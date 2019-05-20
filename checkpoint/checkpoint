@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/Jiao/Desktop/TFProject/style-image/checkpoint/multistyle-pastiche-generator-varied.ckpt-1"
+all_model_checkpoint_paths: "/Users/Jiao/Desktop/TFProject/style-image/checkpoint/multistyle-pastiche-generator-varied.ckpt-1"
