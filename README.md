@@ -1,6 +1,6 @@
 # style-image
 
-🔥A style-image iOS app based on tensorflow.（基于 Tensorflow 的 iOS 图像处理工程，效果类似 Primsa。）
+🔥A style-image iOS project based on tensorflow.（基于 Tensorflow 的 iOS 图像处理工程，效果类似 Primsa。）
 
 ---
 
