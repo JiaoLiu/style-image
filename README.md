@@ -11,3 +11,7 @@
 
 1. [iOS 实现类 Prisma 软件](https://www.jianshu.com/p/d4d0cf91605c)
 2. [iOS 实现类 Prisma 软件(二)](https://www.jianshu.com/p/0179e91d6c78)
+
+效果图：
+
+![](https://upload-images.jianshu.io/upload_images/2641798-698a685a8ea953da.PNG?imageMogr2/auto-orient/strip%7CimageView2/2/w/750/format/webp)
