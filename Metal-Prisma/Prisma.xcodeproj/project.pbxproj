@@ -673,21 +673,10 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				DEVELOPMENT_TEAM = 4877NTFFXU;
-				HEADER_SEARCH_PATHS = (
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow,
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/downloads,
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/downloads/eigen,
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/downloads/protobuf/src,
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/gen/proto,
-				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Prisma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf-lite.a",
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf.a,
-					"-force_load",
-					"/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/gen/lib/libtensorflow-core.a",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.Prisma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -700,21 +689,10 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				DEVELOPMENT_TEAM = 4877NTFFXU;
-				HEADER_SEARCH_PATHS = (
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow,
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/downloads,
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/downloads/eigen,
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/downloads/protobuf/src,
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/gen/proto,
-				);
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = Prisma/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf-lite.a",
-					/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/gen/protobuf_ios/lib/libprotobuf.a,
-					"-force_load",
-					"/Users/Jiao/Desktop/SecurityKeeper/tensorflow/tensorflow/contrib/makefile/gen/lib/libtensorflow-core.a",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.changhong.Prisma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
