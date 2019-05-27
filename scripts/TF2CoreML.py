@@ -15,7 +15,7 @@ import coremltools
 #         tf_model_path = tf_model_path,
 #         mlmodel_path = '../mlmodel/stylize.mlmodel',
 #         output_feature_names = ['transformer/expand/conv3/conv/Sigmoid:0'],
-#         input_name_shape_dict = {'input:0':[1,512,512,3], 'style_num:0':[26]},
+#         input_name_shape_dict = {'input:0':[1,512,512,3], 'style:0':[32]},
 #         image_input_names=['input:0'])
 # mlmodel = tfcoreml.convert(
 #         tf_model_path = tf_model_path,
