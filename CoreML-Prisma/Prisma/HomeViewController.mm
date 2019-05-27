@@ -112,13 +112,13 @@ API_AVAILABLE(ios(12.0))
 - (void)createStyleImage:(UIImage *)source
 {
     dispatch_async(dispatch_get_global_queue(0, DISPATCH_QUEUE_PRIORITY_DEFAULT), ^{
-        MLMultiArray *styleArray = [[MLMultiArray alloc] initWithShape:@[@26,@1,@1,@1,@1] dataType:MLMultiArrayDataTypeDouble error:nil];
+        MLMultiArray *styleArray = [[MLMultiArray alloc] initWithShape:@[@32,@1,@1,@1,@1] dataType:MLMultiArrayDataTypeDouble error:nil];
         for (int i = 0; i < styleArray.count; i++) {
             [styleArray setObject:@0 atIndexedSubscript:i];
         }
         [styleArray setObject:@1 atIndexedSubscript:self->currentStyle];
         
-        stylizeInput *input = [[stylizeInput alloc] initWithStyle_num__0:styleArray input__0:[self getImagePixel:source]];
+        stylizeInput *input = [[stylizeInput alloc] initWithStyle__0:styleArray input__0:[self getImagePixel:source]];
         stylizeOutput *output = [styleModel predictionFromFeatures:input error:nil];
         dispatch_async(dispatch_get_main_queue(), ^{
             self->_styleImageView.image = [self createImage:output.transformer__expand__conv3__conv__Sigmoid__0];
