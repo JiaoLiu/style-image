@@ -200,7 +200,7 @@ API_AVAILABLE(ios(12.0))
     });
     
     CGContextRelease(context);
-    MLMultiArray *tmpArray = [[MLMultiArray alloc] initWithShape:@[@3,@512,@512] dataType:MLMultiArrayDataTypeDouble error:nil];
+    MLMultiArray *tmpArray = [[MLMultiArray alloc] initWithShape:@[[NSNumber numberWithInt: wanted_input_channels],[NSNumber numberWithInt:wanted_input_height],[NSNumber numberWithInt:wanted_input_width]] dataType:MLMultiArrayDataTypeDouble error:nil];
     for (int y = 0; y < wanted_input_height; ++y) {
         for (int x = 0; x < wanted_input_width; ++x) {
             unsigned char *in_pixel =
