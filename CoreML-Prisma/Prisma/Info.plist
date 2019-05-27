@@ -26,6 +26,8 @@
 	<string>授权使用相机</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>授权使用相册</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>授权访问相册</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
