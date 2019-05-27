@@ -6,7 +6,7 @@
 
 1. [Metal 工程](https://github.com/JiaoLiu/style-image/tree/master/Metal-Prisma)
 2. [TF 工程](https://github.com/JiaoLiu/style-image/tree/master/Prisma)
-3. [CoreML 工程](https://github.com/JiaoLiu/style-image/tree/master/CoreML-Prisma）
+3. [CoreML 工程](https://github.com/JiaoLiu/style-image/tree/master/CoreML-Prisma)
 
 想更清晰了解工程的作用以及原理可以查看以下博客介绍 :
 
