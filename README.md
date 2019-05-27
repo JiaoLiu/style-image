@@ -2,10 +2,11 @@
 
 🔥A style-image iOS project based on tensorflow.（基于 Tensorflow 的 iOS 图像处理工程，效果类似 Primsa。）
 
-包含两个 iOS 工程，一个使用了 Metal 一个用的 tensorflow Sdk。
+包含三个 iOS 工程，分别使用了 Metal 、tensorflow Sdk 、CoreML。
 
 1. [Metal 工程](https://github.com/JiaoLiu/style-image/tree/master/Metal-Prisma)
 2. [TF 工程](https://github.com/JiaoLiu/style-image/tree/master/Prisma)
+3. [CoreML 工程]https://github.com/JiaoLiu/style-image/tree/master/CoreML-Prisma）
 
 想更清晰了解工程的作用以及原理可以查看以下博客介绍 :
 
